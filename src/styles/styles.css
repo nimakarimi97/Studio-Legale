@@ -1,0 +1,62 @@
+:root {
+  --main-bg-color: #0b2a4e;
+  --main-text-color: #fff;
+}
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+.navbar {
+  padding: 0;
+}
+.navbar .social-icons {
+  background-color: var(--main-bg-color);
+  color: var(--main-text-color);
+  padding: 5px 0;
+}
+.navbar .social-icons .nav-link {
+  padding: 0 10px;
+}
+.navbar .social-icons .nav-link:hover {
+  color: #4da3ff;
+}
+.navbar .second-row {
+  background-color: rgb(175, 176, 227);
+}
+.navbar .second-row .navbar-brand img {
+  width: 170px;
+  height: 70px;
+}
+.navbar .second-row .btn-free-consultation {
+  color: #fff;
+  background-color: var(--main-bg-color);
+  padding: 5px 15px;
+  margin: 0 5px;
+  text-decoration: none;
+  border-radius: 8px;
+}
+.navbar .second-row .btn-free-consultation:hover {
+  background: #06172b;
+  color: #d4d4d4;
+}
+
+.stats-banner {
+  background-color: #000;
+  color: #fff;
+  padding: 5rem 10px;
+  text-align: center;
+}
+@media (max-width: 768px) {
+  .stats-banner .stat-item {
+    border-bottom: 1px solid #fff;
+    padding: 10px 0;
+  }
+}
+
+footer {
+  background-color: var(--main-bg-color);
+  color: var(--main-text-color);
+  padding: 3rem;
+}/*# sourceMappingURL=styles.css.map */
