@@ -1,18 +1,26 @@
 :root {
-  --main-bg-color: #0b2a4e;
+  --main-nav-color: #0b2a4e;
+  --main-bg-color: black;
   --main-text-color: #fff;
 }
 
 body {
   margin: 0;
   font-family: Arial, sans-serif;
+  background: var(--main-bg-color);
+  overflow-x: hidden;
+}
+
+.text-justify {
+  text-align: justify;
+  text-justify: inter-word;
 }
 
 .navbar {
-  padding: 0;
+  // padding: 0;
 
   .social-icons {
-    background-color: var(--main-bg-color);
+    background-color: var(--main-nav-color);
     color: var(--main-text-color);
     padding: 5px 0;
 
@@ -25,26 +33,19 @@ body {
     }
   }
 
-  .second-row {
-    background-color: rgb(175, 176, 227);
+  .navbar-brand img {
+    width: 170px;
+    height: 60px;
+  }
 
-    .navbar-brand img {
-      width: 170px;
-      height: 70px;
-    }
+  .btn-free-consultation {
+    background-color: var(--main-nav-color);
+    padding: 5px 15px;
+    border-radius: 8px;
 
-    .btn-free-consultation {
-      color: #fff;
-      background-color: var(--main-bg-color);
-      padding: 5px 15px;
-      margin: 0 5px;
-      text-decoration: none;
-      border-radius: 8px;
-
-      &:hover {
-        background: #06172b;
-        color: #d4d4d4;
-      }
+    &:hover {
+      background: #06172b;
+      color: #d4d4d4;
     }
   }
 }
@@ -64,7 +65,57 @@ body {
 }
 
 footer {
-  background-color: var(--main-bg-color);
+  background-color: var(--main-nav-color);
   color: var(--main-text-color);
   padding: 3rem;
+}
+
+.card {
+  background-color: #1e1e1e;
+  // border: none;
+  text-align: justify;
+  text-justify: inter-word;
+
+  &-header,
+  .btn-link {
+    background-color: #2a2a2a;
+    color: #ffffff;
+    font-size: 1.2rem;
+  }
+
+  &-body {
+    color: #cccccc;
+  }
+
+  &-header {
+    border-bottom: 1px solid #444;
+  }
+}
+
+img {
+  border-radius: 5px;
+}
+
+.family-container {
+  .collapse {
+    &:not(.show) {
+      display: block;
+      height: 0;
+      overflow: hidden;
+      transition: height 0.3s ease;
+    }
+
+    &.show {
+      height: auto;
+    }
+  }
+}
+
+.breadcrumb {
+  background-color: #797979;
+  color: #fff;
+
+  a {
+    color: #132dd7;
+  }
 }
