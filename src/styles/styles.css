@@ -99,4 +99,18 @@ img {
 }
 .breadcrumb a {
   color: #132dd7;
+}
+
+.contact-form {
+  background-color: #212529;
+  padding: 20px;
+  border-radius: 8px;
+}
+.contact-form .form-control {
+  background-color: #495057;
+  border: 1px solid #ced4da;
+  color: #ffffff;
+}
+.contact-form .form-label {
+  margin-top: 10px;
 }/*# sourceMappingURL=styles.css.map */

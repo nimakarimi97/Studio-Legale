@@ -12,42 +12,6 @@
             crossorigin="anonymous">
 
         <link rel="stylesheet" href="../styles/styles.css">
-
-        <style>
-        body {
-            background-color: #343a40;
-            color: white;
-        }
-        .contact-form {
-            background-color: #212529;
-            padding: 20px;
-            border-radius: 8px;
-        }
-        .form-control, .form-control:focus, .btn-primary {
-            background-color: #495057;
-            border: 1px solid #ced4da;
-            color: #ced4da;
-        }
-        .form-floating>.form-control, .form-floating>.form-control:focus {
-            color: #ced4da;
-        }
-        .form-floating>.form-control::placeholder {
-            color: transparent;
-        }
-        .form-floating>label {
-            opacity: 0.65;
-        }
-        .form-control:-webkit-autofill,
-        .form-control:-webkit-autofill:hover, 
-        .form-control:-webkit-autofill:focus, 
-        .form-control:-webkit-autofill:active  {
-            -webkit-box-shadow: 0 0 0 30px #495057 inset !important;
-            -webkit-text-fill-color: #ced4da !important;
-        }
-        .btn-primary {
-            margin-top: 20px;
-        }
-    </style>
     </head>
     <body>
         <header>
@@ -170,57 +134,98 @@
             </nav>
         </header>
 
-        <div class="container">
-            <h1>Contact us</h1>
+        <div class="container pt-5">
+            <div class="row justify-content-center">
+                <div class="col-md-8">
+                    <h1 class="mb-4">Contattaci</h1>
 
-            <p>
-                If you have any questions or comments, please fill out the form
-                below and we will get back to you as soon as possible.
-            </p>
+                    <p>Studio Legale Avvocato Enrica Franzini<br>
+                        Via Guglielmo Marconi, 69/B<br>
+                        38057 Pergine Valsugana (TN)</p>
 
-            <div class="mb-3 form-floating">
-                <form>
-                    <div class="form-floating">
+                    <p>
+                        tel.:
+                        <a href="tel:+0461532444">0461 532444</a>
+                    </p>
 
-                        <input
-                            type="email"
-                            class="form-control"
-                            name="email"
-                            id="email"
-                            placeholder="Please enter your email" />
-                        <label for="email">Email</label>
-                    </div>
+                    <p> fax: 0461 532444 </p>
 
-                    <div class="mb-3">
-                        <label for="message" class="form-label">Entra un
-                            messaggio</label>
-                        <textarea class="form-control" name="message"
-                            id="message"
-                            rows="3"></textarea>
-                    </div>
-                </form>
+                    <p>email:
+                        <a
+                            href="mailto:enrica.franzini@gmail.com">enrica.franzini@gmail.com</a>
+                    </p>
+
+                    <p>email:
+                        <a
+                            href="mailto:enrica.franzini@pecitnetoavvocati.it">enrica.franzini@pecitnetoavvocati.it</a>
+                    </p>
+
+                </div>
             </div>
         </div>
 
         <div class="container">
             <div class="row justify-content-center">
-                <div class="col-md-6">
-                    <form class="contact-form" method="post">
-                        <h2 class="text-center">Contact Us</h2>
-                        <div class="mb-3 form-floating">
+                <div class="my-5 col-md-6">
+                    <form class="text-white contact-form" method="POST">
+                        <h4 class="mb-4 ">Contattaci o chiedi una consulenza
+                            legale:</h4>
+                        <div class="mb-3">
+                            <label for="firstName"
+                                class="form-label">Nome</label>
+                            <input type="text" class="form-control"
+                                id="firstName" name="firstName" required>
+                        </div>
+
+                        <div class="mb-3">
+                            <label for="lastName"
+                                class="form-label">Cognome</label>
+                            <input type="text" class="form-control"
+                                id="lastName" name="lastName" required>
+                        </div>
+
+                        <div class="mb-3">
+                            <label for="email" class="form-label">Indirizzo
+                                email</label>
                             <input type="email" class="form-control"
-                                id="emailInput" placeholder="name@example.com"
+                                id="email" name="email" required>
+                        </div>
+
+                        <div class="mb-3">
+                            <label for="confirmEmail"
+                                class="form-label">Conferma Indirizzo
+                                email</label>
+                            <input type="email" class="form-control"
+                                id="confirmEmail" name="confirmEmail"
                                 required>
-                            <label for="emailInput">Email address</label>
                         </div>
-                        <div class="mb-3 form-floating">
-                            <textarea class="form-control" id="messageTextarea"
-                                placeholder="Your message here..." required
-                                style="height: 100px;"></textarea>
-                            <label for="messageTextarea">Message</label>
+
+                        <div class="mb-3">
+                            <label for="phone" class="form-label">Numero di
+                                telefono</label>
+                            <input type="tel" class="form-control"
+                                id="phone" name="phone" required>
                         </div>
+
+                        <div class="mb-3">
+                            <label for="message"
+                                class="form-label">Messaggio</label>
+                            <textarea class="form-control" id="message"
+                                name="message" rows="3" required></textarea>
+                        </div>
+
+                        <div class="mb-3 form-check">
+                            <input type="checkbox" class="form-check-input"
+                                id="privacyCheck" name="privacyCheck"
+                                required>
+                            <a class="text-white form-check-label"
+                                href="#"
+                                id="privacyCheck">Accetto il trattamento della
+                                privacy</a>
+                        </div>
+
                         <button type="submit"
-                            class="btn btn-primary">Send</button>
+                            class="btn btn-primary">Invia</button>
                     </form>
                 </div>
             </div>
