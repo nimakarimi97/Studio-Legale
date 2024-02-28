@@ -112,15 +112,6 @@ img {
   }
 }
 
-.breadcrumb {
-  background-color: #797979;
-  color: #fff;
-
-  a {
-    color: #132dd7;
-  }
-}
-
 .contact-form {
   background-color: #212529;
   padding: 20px;
@@ -135,4 +126,10 @@ img {
   .form-label {
     margin-top: 10px;
   }
+}
+
+.custom-breadcrumb .breadcrumb-item a,
+.custom-breadcrumb .breadcrumb-item.active,
+.breadcrumb-item + .breadcrumb-item::before {
+  color: white;
 }
