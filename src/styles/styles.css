@@ -17,6 +17,9 @@ body {
   text-justify: inter-word;
 }
 
+.navbar {
+  padding: 0;
+}
 .navbar .social-icons {
   background-color: var(--main-nav-color);
   color: var(--main-text-color);
