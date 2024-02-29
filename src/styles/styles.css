@@ -31,6 +31,9 @@ body {
 .navbar .social-icons .nav-link:hover {
   color: #4da3ff;
 }
+.navbar .navbar-brand {
+  padding: 0.6rem 0;
+}
 .navbar .navbar-brand img {
   width: 170px;
   height: 60px;
@@ -56,12 +59,6 @@ body {
     border-bottom: 1px solid #fff;
     padding: 10px 0;
   }
-}
-
-footer {
-  background-color: var(--main-nav-color);
-  color: var(--main-text-color);
-  padding: 3rem;
 }
 
 h2 {
