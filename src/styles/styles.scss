@@ -24,6 +24,10 @@ body {
 
   .nav-link {
     color: var(--main-text-color) !important;
+
+    &:hover {
+      background-color: var(--main-nav-color) !important;
+    }
   }
 
   .dropdown-item {
