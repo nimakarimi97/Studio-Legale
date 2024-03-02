@@ -148,8 +148,21 @@ img {
   background-size: cover;
   position: relative;
 }
-
-.hero-text {
+.hero-image .hero-title {
+  position: absolute;
+  right: 8%;
+  top: 15%;
+}
+.hero-image .hero-title p {
+  font-size: 26px;
+  font-weight: 500;
+}
+.hero-image .hero-title h1 {
+  font-size: 70px !important;
+  font-family: "adobe-garamond-pro", serif;
+  line-height: 1;
+}
+.hero-image .hero-text {
   text-align: center;
   position: absolute;
   top: 3%;
@@ -159,7 +172,7 @@ img {
   background-color: var(--main-nav-color);
   border-radius: 10px;
 }
-.hero-text:before {
+.hero-image .hero-text:before {
   content: "ISCRITTO ALL'ORDINE degli AVVOCATI di TRENTO";
   display: block;
   width: auto;
