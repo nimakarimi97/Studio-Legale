@@ -2,6 +2,8 @@
   --main-nav-color: #0b2a4e;
   --main-bg-color: black;
   --main-text-color: #fff;
+
+  --bs-dropdown-link-color: red !important;
 }
 
 body {
@@ -22,6 +24,15 @@ body {
 
   .nav-link {
     color: var(--main-text-color) !important;
+  }
+
+  .dropdown-item {
+    color: black !important;
+    font-size: 14px;
+
+    &:hover {
+      background: #efefef;
+    }
   }
 
   .social-icons {
