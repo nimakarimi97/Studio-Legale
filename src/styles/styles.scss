@@ -197,11 +197,15 @@ img {
 
 .hero-image {
   background-image: url("../assets/home-20240208_094323.jpg");
-  height: 83vh;
+  height: 430px;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
   position: relative;
+
+  &.home {
+    height: 83vh;
+  }
 
   .hero-title {
     position: absolute;
