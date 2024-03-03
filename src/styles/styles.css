@@ -175,8 +175,8 @@ img {
 }
 
 .custom-background {
-  background-image: url(https://www.datocms-assets.com/18964/1575497118-module-bkg.jpg?auto=format,compress);
   background-color: var(--main-bg-color);
+  background-image: url(https://www.datocms-assets.com/18964/1575497118-module-bkg.jpg?auto=format,compress);
   background-repeat: no-repeat;
   background-size: cover;
   padding: 6vw 8vw;
