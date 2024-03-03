@@ -60,7 +60,8 @@ h2 {
   width: 170px;
   height: 60px;
 }
-.navbar .btn-free-consultation {
+
+.btn-with-arrow-animation {
   background-color: var(--main-nav-color);
   transition: all 0.3s ease-out;
   color: var(--main-text-color) !important;
@@ -74,7 +75,7 @@ h2 {
   border-bottom: 1px solid var(--main-nav-color);
   position: relative;
 }
-.navbar .btn-free-consultation:hover {
+.btn-with-arrow-animation:hover {
   background: #000;
   border-bottom: 1px solid #fff;
   padding: 20px 40px 20px 16px;
@@ -82,11 +83,11 @@ h2 {
   border-radius: 0;
   opacity: 0.6;
 }
-.navbar .btn-free-consultation:hover:after {
+.btn-with-arrow-animation:hover:after {
   opacity: 1;
   transition: opacity 1s;
 }
-.navbar .btn-free-consultation:after {
+.btn-with-arrow-animation:after {
   content: "";
   position: absolute;
   top: 50%;
@@ -175,6 +176,7 @@ img {
 
 .custom-background {
   background-image: url(https://www.datocms-assets.com/18964/1575497118-module-bkg.jpg?auto=format,compress);
+  background-color: var(--main-bg-color);
   background-repeat: no-repeat;
   background-size: cover;
   padding: 6vw 8vw;
@@ -209,6 +211,7 @@ img {
 }
 .contact-form .form-control {
   background-color: #495057;
+  background: transparent;
   border: 1px solid #ced4da;
   color: #ffffff;
 }
