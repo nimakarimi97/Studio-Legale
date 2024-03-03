@@ -120,9 +120,6 @@ h2 {
   color: #ffffff;
   font-size: clamp(1rem, 1.8vw, 1.2rem);
 }
-.card-header {
-  border-bottom: 1px solid #444;
-}
 .card-title {
   font-size: clamp(1rem, 1.8vw, 1.2rem);
 }
@@ -138,6 +135,23 @@ img {
   border-radius: 5px;
 }
 
+.family-container {
+  padding-top: 100px;
+  padding-bottom: 100px;
+  background-image: url(https://www.datocms-assets.com/18964/1575497118-module-bkg.jpg?auto=format,compress);
+}
+.family-container h1 {
+  font-family: "adobe-garamond-pro", serif;
+  font-weight: inherit;
+  font-size: 48px;
+}
+.family-container .card-header {
+  border-bottom: 1px solid #444;
+}
+.family-container .card-header,
+.family-container .btn-link {
+  font-size: clamp(1.2rem, 1.8vw, 1.6rem);
+}
 .family-container .collapse:not(.show) {
   display: block;
   height: 0;
