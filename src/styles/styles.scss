@@ -105,18 +105,9 @@ body {
   }
 }
 
-.stats-banner {
-  background-color: #000;
-  color: #fff;
-  padding: 5rem 10px;
-  text-align: center;
-
-  @media (max-width: 768px) {
-    .stat-item {
-      border-bottom: 1px solid #fff;
-      padding: 10px 0;
-    }
-  }
+h1 {
+  font-family: "adobe-garamond-pro", serif;
+  font-size: clamp(2rem, 3.5vw, 3.375rem);
 }
 
 h2 {
@@ -154,16 +145,20 @@ img {
   border-radius: 5px;
 }
 
+.custom-background {
+  background-image: url(https://www.datocms-assets.com/18964/1575497118-module-bkg.jpg?auto=format,compress);
+  // background-image: url("../assets/home-20240208_094323.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 6vw 8vw;
+}
+
 .family-container {
   padding-top: 100px;
   padding-bottom: 100px;
-  background-image: url(https://www.datocms-assets.com/18964/1575497118-module-bkg.jpg?auto=format,compress);
-  // background-image: url("../assets/home-20240208_094323.jpg");
 
   h1 {
-    font-family: "adobe-garamond-pro", serif;
-    font-weight: inherit;
-    font-size: 48px;
+    font-size: 48px !important;
   }
 
   .card-header {
@@ -190,9 +185,8 @@ img {
 }
 
 .contact-form {
-  background-color: #212529;
+  // background-color: #212529;
   padding: 20px;
-  border-radius: 8px;
 
   .form-control {
     background-color: #495057;
