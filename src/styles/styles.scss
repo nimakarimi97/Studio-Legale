@@ -34,6 +34,10 @@ h2 {
   .nav-link {
     color: var(--main-text-color) !important;
 
+    &.active {
+      font-weight: 900 !important;
+    }
+
     &:hover {
       background-color: var(--main-nav-color) !important;
     }
