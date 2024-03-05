@@ -123,6 +123,12 @@ h2 {
   right: 8%;
   top: 15%;
 }
+@media (max-width: 768px) {
+  .hero-image .hero-title {
+    top: 28%;
+    padding: 1rem;
+  }
+}
 .hero-image .hero-title p {
   font-size: 26px;
   font-weight: 500;
