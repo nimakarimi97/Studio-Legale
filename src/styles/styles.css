@@ -194,6 +194,7 @@ img {
   background-image: url(https://www.datocms-assets.com/18964/1575497118-module-bkg.jpg?auto=format,compress);
   background-repeat: no-repeat;
   background-size: cover;
+  background-attachment: fixed;
   opacity: 0.8;
   z-index: -1;
 }
