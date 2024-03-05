@@ -2,7 +2,6 @@
   --main-nav-color: #0b2a4e;
   --main-bg-color: black;
   --main-text-color: #fff;
-  --bs-dropdown-link-color: red !important;
 }
 
 body {
@@ -35,6 +34,9 @@ h2 {
 }
 .navbar .nav-link.active {
   font-weight: 900 !important;
+}
+.navbar .nav-link ~ button {
+  margin-left: -6px;
 }
 .navbar .nav-link:hover {
   background-color: var(--main-nav-color) !important;

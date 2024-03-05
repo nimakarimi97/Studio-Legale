@@ -2,8 +2,6 @@
   --main-nav-color: #0b2a4e;
   --main-bg-color: black;
   --main-text-color: #fff;
-
-  --bs-dropdown-link-color: red !important;
 }
 
 body {
@@ -36,6 +34,10 @@ h2 {
 
     &.active {
       font-weight: 900 !important;
+    }
+
+    & ~ button {
+      margin-left: -6px;
     }
 
     &:hover {
