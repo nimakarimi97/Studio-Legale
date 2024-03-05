@@ -39,11 +39,14 @@ h2 {
 .navbar .nav-link:hover {
   background-color: var(--main-nav-color) !important;
 }
-.navbar .dropdown-item {
+.navbar .dropdown-menu li:not(:last-child) {
+  border-bottom: 1px solid #efefef;
+}
+.navbar .dropdown-menu li .dropdown-item {
   color: black !important;
   font-size: 14px;
 }
-.navbar .dropdown-item:hover {
+.navbar .dropdown-menu li .dropdown-item:hover {
   background: #efefef;
 }
 .navbar .social-icons {

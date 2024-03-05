@@ -43,12 +43,18 @@ h2 {
     }
   }
 
-  .dropdown-item {
-    color: black !important;
-    font-size: 14px;
+  .dropdown-menu li {
+    &:not(:last-child) {
+      border-bottom: 1px solid #efefef;
+    }
 
-    &:hover {
-      background: #efefef;
+    .dropdown-item {
+      color: black !important;
+      font-size: 14px;
+
+      &:hover {
+        background: #efefef;
+      }
     }
   }
 
