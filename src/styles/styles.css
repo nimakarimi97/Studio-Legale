@@ -231,6 +231,9 @@ img {
 .contact-form .form-label {
   margin-top: 10px;
 }
+.contact-form-message {
+  background-color: #0b2a4e;
+}
 
 .custom-breadcrumb .breadcrumb-item a,
 .custom-breadcrumb .breadcrumb-item.active,
