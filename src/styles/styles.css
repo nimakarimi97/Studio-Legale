@@ -127,7 +127,7 @@ h2 {
 }
 @media (max-width: 768px) {
   .hero-image .hero-title {
-    top: 28%;
+    top: 11rem;
     padding: 1rem;
   }
 }
