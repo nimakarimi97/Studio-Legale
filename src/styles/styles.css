@@ -126,19 +126,22 @@ h2 {
   right: 8%;
   top: 15%;
 }
+.hero-image .hero-title h1 {
+  font-size: 70px;
+  line-height: 1;
+}
 @media (max-width: 768px) {
   .hero-image .hero-title {
     top: 11rem;
     padding: 1rem;
   }
+  .hero-image .hero-title h1 {
+    font-size: clamp(2rem, 9vw, 4rem);
+  }
 }
 .hero-image .hero-title p {
-  font-size: 26px;
+  font-size: clamp(1rem, 2vw, 1.7rem);
   font-weight: 500;
-}
-.hero-image .hero-title h1 {
-  font-size: 70px !important;
-  line-height: 1;
 }
 .hero-image .hero-text {
   text-align: center;
